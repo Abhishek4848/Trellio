@@ -1,3 +1,9 @@
+body
+{
+  background: #34495e;
+}
+
+
 .header {
     padding: 80px; /* some padding */
     text-align: center; /* center the text */
@@ -59,10 +65,11 @@
   /* Main column */
   .main {
     flex:100%; /* Set the width of the main content */
-    background-color: white; /* White background color */
+    background: #34495e;/* grey background color */
     padding: 20px; /* Some padding */
     font-size: 20px;
     font-family: 'Handlee', cursive;
+
   }
   .button {
     display: inline-block;
@@ -123,8 +130,11 @@
     display: inline-block;
   }
   .heart {
+    width: 400px;
+    margin-left:120px ;
     animation: beat 0.7s infinite alternate;
-    transform-origin: center;
+    transform-origin:center;
+    color: white;
   }
   
   /* Heart beat animation */
