@@ -12,10 +12,12 @@ export const Homepage = () => {
         <div className="navbar">
             <a href="#about_page">ABOUT</a>
             <Link to="/Register" className="right">SIGN UP</Link>
-            <Link to="/src/components/Screens/Mainscreen" className="right">LOG IN</Link>
+            <Link to="/Login" className="right">LOG IN</Link>
+        </div>
+        <div className ="title">
+        <h1 className="heart">ABOUT TRELLIO</h1>
         </div>
         <div className="main" id="about_page">
-            <h1 className="heart">ABOUT TRELLIO</h1>
             <div className="about">
                 Trellio is a platform where fellow developers can meet , connect and collaborate. Developers can post their project ideas
                 and other fellow developers can view the project ideas and conncet to work on it.

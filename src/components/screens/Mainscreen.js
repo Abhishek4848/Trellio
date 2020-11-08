@@ -1,6 +1,5 @@
 import React from 'react';
 import SideBar from "./NavBar";
-
 export const Mainscreen = () => {
     return(
         <span>
