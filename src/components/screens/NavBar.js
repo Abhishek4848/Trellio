@@ -1,12 +1,8 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import './NavBar.css';
-<<<<<<< HEAD:src/components/Screens/NavBar.js
 import {Link} from "react-router-dom";
-=======
 import Logo from "../layouts/images/icon.svg";
->>>>>>> 3f84942a87b2ac06e6f145edf31d356701e90684:src/components/screens/NavBar.js
-
 export default props => {
   return (
     <Menu {...props}>

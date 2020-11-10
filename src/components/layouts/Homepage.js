@@ -13,6 +13,7 @@ export const Homepage = () => {
             <a href="#about_page">ABOUT</a>
             <Link to="/Register" className="right">SIGN UP</Link>
             <Link to="/Login" className="right">LOG IN</Link>
+            <Link to ="/Learn" classname="right">LEARN TECH</Link>
         </div>
         <div className ="title">
         <h1 className="heart">ABOUT TRELLIO</h1>

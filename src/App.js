@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Homepage from './components/layouts/Homepage'
 import Login from './components/layouts/Login'
+import Learn from './components/layouts/Learn'
 import './App.css';
 import Register from "./components/layouts/Register"
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route exact path = "/Register" component={Register}/>
           <Route exact path = "/Login" component = {Login}/>
+          <Route exact path = "/Learn" component = {Learn}/>
         </Switch>
       </section>
       </Router>
