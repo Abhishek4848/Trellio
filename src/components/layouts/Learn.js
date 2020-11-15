@@ -17,7 +17,7 @@ export const Learn = () =>{
                 <h3>ReactJS</h3>
                 <p>A JavaScript library for building user interfaces</p>
                 <div className="tags">
-                <a href="https://reactjs.org/" target="_blank">
+                <a target="_blank" rel="noopener noreferrer" href="https://reactjs.org/">
                 <button className="Visitbtn">View Website</button>
                 </a>
                 </div>
@@ -32,7 +32,7 @@ export const Learn = () =>{
                 <p>Client - Side Scripting Language</p>
             </div>
             <div className="tags">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank">
+            <a target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/javascript">
             <button className="Visitbtn">View Website</button>
             </a>
             </div>
@@ -45,7 +45,7 @@ export const Learn = () =>{
                 <h3>Python</h3>
                 <p>Python is a programming language that lets you work quickly and integrate systems more effectively.</p>
                 <div className="tags">
-                <a href="https://www.python.org/" target="_blank">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.python.org/">
                 <button className="Visitbtn">View Website</button>
                 </a>
                 </div>
@@ -59,7 +59,7 @@ export const Learn = () =>{
             <h3>C</h3>
             <p>Procedural programming language</p>
             <div className="tags">
-            <a href="https://www.geeksforgeeks.org/c-programming-language/" target="_blank">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.geeksforgeeks.org/c-programming-language/">
             <button className="Visitbtn">View Website</button>
             </a>
             </div>
@@ -73,7 +73,7 @@ export const Learn = () =>{
             <h3>Flutter</h3>
             <p>Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.</p>
             <div className="tags">
-            <a href="https://flutter.dev/" target="_blank">
+            <a target="_blank" rel="noopener noreferrer" href="https://flutter.dev/" >
             <button className="Visitbtn">View Website</button>
             </a>
             </div>
@@ -87,7 +87,7 @@ export const Learn = () =>{
             <h3>Java</h3>
             <p>Concurrent, class-based, object-oriented and high-level programing language</p>
             <div className="tags">
-            <a href="https://go.java/?intcmp=gojava-banner-java-com" target="_blank">
+            <a target="_blank" rel="noopener noreferrer" href="https://go.java/?intcmp=gojava-banner-java-com">
             <button className="Visitbtn">View Website</button>
             </a>
             </div>
@@ -101,7 +101,7 @@ export const Learn = () =>{
         <h3>C++</h3>
         <p>C++ is a statically-typed, multi-paradigm, general-purpose programming language</p>
         <div className="tags">
-        <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-160" target="_blank">
+        <a target="_blank" rel="noopener noreferrer" href="https://docs.microsoft.com/en-us/cpp/?view=msvc-160" >
         <button className="Visitbtn">View Website</button>
         </a>
         </div>
@@ -115,7 +115,7 @@ export const Learn = () =>{
         <h3>R</h3>
         <p>R is a free software environment for statistical computing and graphics</p>
         <div className="tags">
-        <a href="https://www.r-project.org/" target="_blank">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.r-project.org/">
         <button className="Visitbtn">View Website</button>
         </a>
         </div>
@@ -129,7 +129,7 @@ export const Learn = () =>{
         <h3>Ruby</h3>
         <p>A dynamic, open source programming language with a focus on simplicity and productivity</p>
         <div className="tags">
-        <a href="https://www.ruby-lang.org/en/" target="_blank">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.ruby-lang.org/en/" >
         <button className="Visitbtn">View Website</button>
         </a>
         </div>
@@ -143,7 +143,7 @@ export const Learn = () =>{
     <h3>SQL</h3>
     <p>Domain-specific language used in programming and designed for managing data held in a relational database management system</p>
     <div className="tags">
-    <a href="https://dev.mysql.com/doc/" target="_blank">
+    <a target="_blank" rel="noopener noreferrer" href="https://dev.mysql.com/doc/">
     <button className="Visitbtn">View Website</button>
     </a>
     </div>
@@ -157,7 +157,7 @@ export const Learn = () =>{
     <h3>Golang</h3>
     <p>Open source programming language that makes it easy to build simple, reliable, and efficient software</p>
     <div className="tags">
-    <a href="https://golang.org/doc/" target="_blank">
+    <a target="_blank" rel="noopener noreferrer" href="https://golang.org/doc/" >
     <button className="Visitbtn">View Website</button>
     </a>
     </div>
@@ -171,7 +171,7 @@ export const Learn = () =>{
     <h3>Matlab</h3>
     <p>Multi-paradigm programming language and numerical computing environment.</p>
     <div className="tags">
-    <a href="https://www.mathworks.com/help/matlab/" target="_blank">
+    <a target="_blank" rel="noopener noreferrer" href="https://www.mathworks.com/help/matlab/" >
     <button className="Visitbtn">View Website</button>
     </a>
     </div>

@@ -5,8 +5,14 @@
     background: #1abc9c; 
     color: white; 
     width: auto;
+    height: 1%;
 }
-
+h2{
+    color: white;
+}
+span{
+    color: white;
+}
 .header h1 {
     font-size: 50px;
 }
@@ -23,11 +29,11 @@
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
 }
 .container{
-    position: relative;
+    position: sticky;
 }
 img{
-    width: 100%;
-    display: flex;
+    width: 5%;
+    display: block;
     border-radius: 20px 20px 0 0;
 }
 .container:after{
@@ -38,16 +44,28 @@ img{
     top: 0;
     left: 0;
     border-radius: 20px 20px 0 0;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 .card1>.container:after{
-    background-image: linear-gradient(135deg, #0100ec,#fb36f4);
+    background-image: linear-gradient(
+        135deg,
+        #0100ec,
+        #fb36f4
+    );
 }
 .card2>.container:after{
-    background-image: linear-gradient(135deg, #2bdce3, #42ffdb);
+    background-image: linear-gradient(
+        135deg,
+        #2bdce3,
+        #42ffdb
+    );
 }
 .card3>.container:after{
-    background-image: linear-gradient(135deg,#890cc4,#f8501c);
+    background-image: linear-gradient(
+        135deg,
+        #ffab1d,
+        #f8501c
+    );
 }
 .details{
     padding: 20px 10px;
@@ -66,31 +84,37 @@ img{
 }
 
 .tags {
-    margin-left: 70px;
+    margin: 1rem 0 2rem;
+    padding: .5rem 0 1rem;
+    line-height: 2;
+    margin-bottom: 0;
 }
 
 .tags button {
     font-style: normal;
     font-weight: 700;
-    font-size: .5rem;
+    font-size: 16px;
     color: #7a7a8c;
-    font-size: 10px;
-    border: 3px solid #28242f;
-    border-radius: 12px;
-    padding: .2rem .85rem .25rem;
-    border: 2px solid #1abc9c;
-    background-color: #28242f;
+    border-radius: 2rem;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer
+
 }
 
 .tags button:hover {
-    background: linear-gradient(90deg,#ff8a00,#a0c90d);
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
     text-shadow: none;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     background-clip: text;
-    border-color: #3498db;
+    border-color: white;
 }
 
 .Visitbtn {
