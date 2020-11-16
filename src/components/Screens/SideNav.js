@@ -22,9 +22,12 @@ export default props => {
         <Link to = "/Myprojects" className ="right">My Projects</Link>
       )}
       {auth.isLoggedIn && (
-        <Link to = "/" className ="right" onClick = {() => auth.logout()}>
+        <Link to = "/Projects" className ="right">Explore Projects</Link>
+      )}
+      {auth.isLoggedIn && (
+        <Link to = "/" className ="right" >
         <span className="btn">
-        <button className="logout"><span>Logout</span></button>
+        <button className="logout" onClick = {() => auth.logout()}><span>Logout</span></button>
         </span>
         </Link>
     )}
