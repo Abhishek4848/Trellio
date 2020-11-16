@@ -5,10 +5,10 @@ import Login from './components/layouts/Login'
 import './App.css';
 import Register from "./components/layouts/Register"
 import {authContext} from "./context/auth-context"
-import POSTS from './components/screens/POSTS'
+import POSTS from './components/Screens/POSTS'
 import Learn from './components/layouts/Learn'
-import Project from './components/screens/Project'
-import Myprojects from './components/screens/Myprojects'
+import Project from './components/Screens/Project'
+import Myprojects from './components/Screens/Myprojects'
 
 function App() {
 const [isLoggedIn, setIsLoggedIn] = useState()
