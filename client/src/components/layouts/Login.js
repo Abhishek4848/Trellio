@@ -27,7 +27,7 @@ function Login() {
         })
         .then((res) => res.json())
         .then(res => {
-            console.log(res)
+            //console.log(res)
             if(res.token)
             {
                 localStorage.setItem('token',res.token)
@@ -37,7 +37,9 @@ function Login() {
             else{alert('INVALID CREDENTIALS')}
         })
     }
-    catch(err){}
+    catch(err){
+        alert(err.message)
+    }
 
      }
     

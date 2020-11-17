@@ -29,13 +29,13 @@ function Register() {
         })
         .then((res) => res.json())
         .then(res => {
-            console.log(res)
-            alert('USER CREATED')
+            //console.log(res.error[0])
+            alert("User Created")
             history.push("/Login")
         })
     }
     catch(err){            
-      alert('USER ALREADY EXISTS')
+      alert(err.message)
   }
 
      }
