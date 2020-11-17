@@ -39,8 +39,10 @@ export const Homepage = () => {
             <Link to="/Login">
             <button className="button"><span>LOGIN</span></button></Link>
             </span>
+            <br></br>
+            <br></br>
             <hr></hr>
-            <img src={logo} height="70px" width="70px" alt="icon"></img>
+            <img src={logo} height="70px" width="70px" alt="icon" className = "trellio"></img>
         </div>
     </div>
   );

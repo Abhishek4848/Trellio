@@ -97,7 +97,7 @@ function UpdatePosts() {
               <input
                 type="submit"
                 class="createbtn"
-                value="Create Project"
+                value="Update Project"
               ></input>
             </div>
           </div>

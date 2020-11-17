@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SideNav from "./SideNav";
-import "./Learn.css";
+import "./Project.css";
 import "./search.css"
 
 
@@ -35,10 +35,11 @@ function Post() {
       .then((res) => setResponses(res));
   }, []);
   //console.log(responses)
-  const search = responses
+  var search = responses
     .map((res) => res.techStack)
     .map((res) => res)
     .filter((s) => s.includes(searchdata));
+  search = Array.from( new Set(search))
   // console.log(search)
   // const finaldata = responses.filter((res)=> res.techStack == (search.map((s)=>s)) )
   // console.log(finaldata)
@@ -93,20 +94,20 @@ function Post() {
                   <hr></hr>
                   <br></br>
                   <h2> {response.title} </h2>
-                  <h3> {response.desc} </h3>
-                  <h3>Tech Stack: {response.techStack}</h3>
-                  <h3>Rating : {response.rating}</h3>
+                  <p> {response.desc} </p>
+                  <p>Tech Stack: {response.techStack}</p>
+                  <p>Rating : {response.rating}</p>
                   <hr></hr>
                   <div className="tags">
                     <a href={mailser}>
-                      <button className="Visitbtn">Connect</button>
+                      <button className="random">Connect</button>
                     </a>
                     <a
                       href={response.git}
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      <button className="Visitbtn">View Project</button>
+                      <button className="random">View Project</button>
                     </a>
                   </div>
                 </div>
@@ -135,20 +136,20 @@ function Post() {
                       <hr></hr>
                       <br></br>
                       <h2> {response.title} </h2>
-                      <h3> {response.desc} </h3>
-                      <h3>Tech Stack: {response.techStack}</h3>
-                      <h3>Rating : {response.rating}</h3>
+                      <p> {response.desc} </p>
+                      <p>Tech Stack: {response.techStack}</p>
+                      <p>Rating : {response.rating}</p>
                       <hr></hr>
                       <div className="tags">
                         <a href={mailser}>
-                          <button className="Visitbtn">Connect</button>
+                          <button className="random">Connect</button>
                         </a>
                         <a
                           href={response.git}
                           rel="noopener noreferrer"
                           target="_blank"
                         >
-                          <button className="Visitbtn">View Project</button>
+                          <button className="random">View Project</button>
                         </a>
                       </div>
                     </div>
@@ -158,6 +159,7 @@ function Post() {
             })
       }
       </div>
+      
     </div>
   );
 }

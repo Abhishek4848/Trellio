@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import { useHistory } from 'react-router-dom'
-import Navbar from '../layouts/Navbar'
-import "./Learn.css";
+import SideNav from "./SideNav";
+import "./Project.css";
 
 function Myprojects() {
     
@@ -57,7 +57,7 @@ function Myprojects() {
         <div className="header">
        <h1>MY PROJECTS</h1>
        </div>
-           <Navbar />
+           <SideNav />
         <h1>{h}</h1>
     
    { data.map((response) => {
@@ -74,15 +74,15 @@ function Myprojects() {
                 <hr></hr>
                 <br></br>
                 <h2> {response.title} </h2>
-                <h3> {response.desc} </h3>
-                <h3>Tech Stack: {response.techStack}</h3>
-                <h3>Rating : {response.rating}</h3>
+                <p> {response.desc} </p>
+                <p>Tech Stack: {response.techStack}</p>
+                <p>Rating : {response.rating}</p>
                 <hr></hr>
                <div className="tags">
-                   <button className="Visitbtn" onClick = {() => submitHandler(response._id)}>DELETE</button>
-                   <button className="Visitbtn" onClick = {() => updateForm(response._id)}>UPDATE</button>
+                   <button className="random" onClick = {() => submitHandler(response._id)}>DELETE</button>
+                   <button className="random" onClick = {() => updateForm(response._id)}>UPDATE</button>
                    <a href = {response.git} rel="noopener noreferrer" target="_blank">
-                            <button className="Visitbtn">View Project</button>
+                            <button className="random">View Project</button>
                         </a>
                </div>
                </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Learn.css";
-
+import SideNav from "../Screens/SideNav";
 
 export const Learn = () =>{
     return(
@@ -8,6 +8,7 @@ export const Learn = () =>{
             <div className="header">
             <h1>Tech Stack</h1>
             </div>
+            <SideNav/>
             <div className="cards">
         <div className="card card1">
             <div className="container">
@@ -20,8 +21,9 @@ export const Learn = () =>{
                 <a target="_blank" rel="noopener noreferrer" href="https://reactjs.org/">
                 <button className="Visitbtn">View Website</button>
                 </a>
-                </div>
             </div>
+            </div>
+           
         </div>
         <div className="card card2">
             <div className="container">
@@ -44,11 +46,11 @@ export const Learn = () =>{
             <div className="details">
                 <h3>Python</h3>
                 <p>Python is a programming language that lets you work quickly and integrate systems more effectively.</p>
+                </div>
                 <div className="tags">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.python.org/">
                 <button className="Visitbtn">View Website</button>
                 </a>
-                </div>
             </div>
         </div>
         <div className="card card1">
