@@ -6,19 +6,25 @@ import "./Project.css";
 function Myprojects() {
     
     const [data,setdata] = useState([])
-
+    function getposts()
+    {
+    fetch("http://localhost:5000/api/profile/me/",{
+        method:"get",
+        headers:{
+            "x-auth-token":localStorage.getItem('token')
+        }
+    })
+    .then((res) => res.json())
+    .then((res) => {
+        setdata(res)
+    })
+}
     useEffect(() => {
-        fetch("http://localhost:5000/api/profile/me/",{
-            method:"get",
-            headers:{
-                "x-auth-token":localStorage.getItem('token')
-            }
-        })
-        .then((res) => res.json())
-        .then((res) => {
-            setdata(res)
-        })
-    },[data])
+        
+    getposts();
+        // eslint-disable-next-line
+    },[]);
+
 
    // console.log(data)
 
@@ -37,10 +43,10 @@ function Myprojects() {
             })
             .then(res => {
                 alert("deleted")
+                getposts();
             })
         }
         catch(err){}
-        history.push("/Myprojects")
     }
 
     const updateForm = (pid)=>{
@@ -62,9 +68,9 @@ function Myprojects() {
     
    { data.map((response) => {
        return(
-        <div className="cards" key={response._id}>
-        <div className="card card1">
-            <div className="details">
+        <div className="cards4" key={response._id}>
+        <div className="card4">
+            <div className="details4">
                 <span>
                 <img src= {response.user.avatar} alt="logo"></img><br></br>
                 author : {response.user.name}<br></br>
@@ -78,7 +84,7 @@ function Myprojects() {
                 <p>Tech Stack: {response.techStack}</p>
                 <p>Rating : {response.rating}</p>
                 <hr></hr>
-               <div className="tags">
+               <div className="tags4">
                    <button className="random" onClick = {() => submitHandler(response._id)}>DELETE</button>
                    <button className="random" onClick = {() => updateForm(response._id)}>UPDATE</button>
                    <a href = {response.git} rel="noopener noreferrer" target="_blank">

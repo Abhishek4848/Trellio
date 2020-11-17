@@ -48,37 +48,37 @@ function UpdatePosts() {
         <h3>MEET . CONNECT . COLLABORATE</h3>
       </div>
       <SideNav />
-      <div class="wrapper">
-        <div class="title">
+      <div className="wrapper">
+        <div className="title">
           <h1>Update Your Project Details</h1>
         </div>
         <form onSubmit={submitHandler}>
-          <div class="contact-form">
-            <div class="input-fields">
+          <div className="contact-form">
+            <div className="input-fields">
               <input
                 type="text"
-                class="input"
+                className="input"
                 onChange={(e) => setTitle(e.target.value)}
                 placeholder="Project Title"
                 required
               ></input>
               <input
                 type="text"
-                class="input"
+                className="input"
                 onChange={(e) => setDesc(e.target.value)}
                 placeholder="Description"
                 required
               ></input>
               <input
                 type="text"
-                class="input"
+                className="input"
                 placeholder="Technologies Used"
                 onChange={(e) => settech(e.target.value)}
                 required
               ></input>
               <input
                 type="url"
-                class="input"
+                className="input"
                 placeholder="github project link"
                 onChange={(e) => setGit(e.target.value)}
                 required
@@ -96,7 +96,7 @@ function UpdatePosts() {
               <br></br>
               <input
                 type="submit"
-                class="createbtn"
+                className="createbtn"
                 value="Update Project"
               ></input>
             </div>

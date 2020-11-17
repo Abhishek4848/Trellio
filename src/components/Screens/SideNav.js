@@ -14,6 +14,9 @@ export default props => {
         Home
       </a>
       )}
+       {auth.isLoggedIn && (
+        <Link to = "/Todo" className ="right" >Todo</Link>
+    )}
       <Link to ="/Learn" className="menu-item">
         Learn Tech
       </Link>
@@ -33,6 +36,7 @@ export default props => {
         </span>
         </Link>
     )}
+   
     {!auth.isLoggedIn && (
         <Link to = "/" className ="right" >
         <span className="btn">

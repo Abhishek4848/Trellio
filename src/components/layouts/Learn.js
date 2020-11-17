@@ -9,8 +9,8 @@ export const Learn = () =>{
             <h1>Tech Stack</h1>
             </div>
             <SideNav/>
-            <div className="cards">
-        <div className="card card1">
+            <div className="cards4">
+        <div className="card4">
             <div className="container">
                 <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" alt="react"></img>
             </div>
@@ -53,7 +53,7 @@ export const Learn = () =>{
                 </a>
             </div>
         </div>
-        <div className="card card1">
+        <div className="card4">
         <div className="container">
             <img src="https://www.bing.com/th?id=OIP.q85uMC6nn1YPLlt0NMrkoAHaIM&w=184&h=204&c=8&rs=1&qlt=90&dpr=1.25&pid=3.1&rm=2" alt="c"></img>
         </div>
@@ -95,7 +95,7 @@ export const Learn = () =>{
             </div>
         </div>
     </div>
-    <div className="card card1">
+    <div className="card4">
     <div className="container">
         <img src="https://www.bing.com/th?id=OIP.lzUhh3cMIyqgUJcdtzvMjgHaFj&w=165&h=110&c=8&rs=1&qlt=90&dpr=1.25&pid=3.1&rm=2" alt="cpp"></img>
     </div>
@@ -137,7 +137,7 @@ export const Learn = () =>{
         </div>
     </div>
 </div>
-<div className="card card1">
+<div className="card4">
 <div className="container">
     <img src="https://www.bing.com/th?id=OIP.JCM9MaYqMsFhxCUk5kw-bwHaGM&w=119&h=100&c=8&rs=1&qlt=90&dpr=1.25&pid=3.1&rm=2" alt="SQL"></img>
 </div>

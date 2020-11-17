@@ -17,18 +17,18 @@ span{
     font-size: 50px;
 }
 
-.cards{
+.cards4{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(235px,1fr));
     padding: 20px;
     grid-gap: 40px;
 }
-.card{
+.card4{
     background-color: #1c1b29;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
 }
-.container{
+.container4{
     position: sticky;
 }
 img{
@@ -36,7 +36,7 @@ img{
     display: block;
     border-radius: 20px 20px 0 0;
 }
-.container:after{
+.container4:after{
     content: "";
     height: 100%;
     width: 100%;
@@ -46,51 +46,38 @@ img{
     border-radius: 20px 20px 0 0;
     opacity: 0.7;
 }
-.card1>.container:after{
+.card5>.container:after{
     background-image: linear-gradient(
         135deg,
         #0100ec,
         #fb36f4
     );
 }
-.card2>.container:after{
-    background-image: linear-gradient(
-        135deg,
-        #2bdce3,
-        #42ffdb
-    );
-}
-.card3>.container:after{
-    background-image: linear-gradient(
-        135deg,
-        #ffab1d,
-        #f8501c
-    );
-}
-.details{
+
+.details4{
     padding: 20px 10px;
 }
-.details>h3{
+.details4{
     color: #ffffff;
     font-weight: 600;
     font-size: 18px;
     margin: 10px 0 15px 0;
 }
-.details>p{
+.details4{
     color: #a0a0a0;
     font-size: 15px;
     line-height: 30px;
     font-weight: 400;
 }
 
-.tags {
+.tags4 {
     margin: 1rem 0 2rem;
     padding: .5rem 0 1rem;
     line-height: 2;
     margin-bottom: 0;
 }
 
-.tags button {
+.tags4 button {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -107,7 +94,7 @@ img{
 
 }
 
-.tags button:hover {
+.tags4 button:hover {
     background: linear-gradient(90deg,#ff8a00,#e52e71);
     text-shadow: none;
     -webkit-text-fill-color: transparent;
@@ -127,3 +114,155 @@ img{
     outline: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+.inputLabel1 {
+    color: brown;
+    font-size: large;
+}
+
+.inp1 {
+    text-align: center;
+}
+
+.todoitems1 {
+    text-align: center;
+    padding: 5px;
+    color: blue;
+}
+
+.inputfield1 {
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.inputfield1:focus {
+    outline: none;
+}
+
+.submitbtn1 {
+    background-color: lime;
+    border-radius: 50px;
+}
+
+.submitbtn1:focus {
+    outline: none;
+}
+
+/*
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #17141d;
+    color: white;
+    font-family: 'DM Mono', monospace;
+}
+*/
+
+.card-list1 {
+    display: inline-flex;
+    padding: 1px;
+    margin-right: -75px;
+    /* overflow-x: scroll;
+    overflow-y: scroll; */
+}
+
+
+.card-list1::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.card-list1::-webkit-scrollbar-thumb {
+    background: #201c29;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+.card-list1::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
+}
+
+
+.card1 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 350px;
+    width: 300px;
+    min-width: 250px;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #130136;
+    box-shadow: -1rem 0 3rem #000;
+    transition: .2s;
+}
+
+.card1:hover {
+    transform: translateY(-1rem);
+}
+
+.card1:hover~.card {
+    transform: translateX(130px);
+}
+
+.card1:not(:first-child) {
+    margin-left: -130px;
+}
+
+.card-header1{
+    margin-bottom: auto;
+}
+
+.card-header1 p {
+    font-size: 14px;
+    margin: 0 0 1rem;
+    color: #7a7a8c;
+}
+
+.card-header1 h2 {
+    font-size: 20px;
+    margin: .25rem 0 auto;
+    cursor: pointer;
+}
+
+.card-header1 h2:hover {
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tags1 {
+    margin: 1rem 0 2rem;
+    padding: .5rem 0 1rem;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+.tags1 button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: .5rem;
+    color: #7a7a8c;
+    text-transform: uppercase;
+    font-size: .66rem;
+    border: 3px solid #28242f;
+    border-radius: 2rem;
+    padding: .2rem .85rem .25rem;
+    position: relative;
+}
+
+.tags1 button:hover {
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    text-shadow: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-clip: text;
+    border-color: white;
+}
+.author-name-1{
+    color: white;
+}

@@ -1,4 +1,4 @@
-import React,{useContext} from "react";
+import React,{useContext,useEffect} from "react";
 import "./homepage.css";
 import logo from './images/icon.svg'; 
 import {Link} from "react-router-dom";
@@ -6,6 +6,7 @@ import Navbar from './Navbar'
 import {authContext} from '../../context/auth-context'
 export const Homepage = () => {
   const auth = useContext(authContext)
+  useEffect(()=>{
   if(localStorage.getItem('token'))
   {
     auth.login()
@@ -14,6 +15,7 @@ export const Homepage = () => {
   {
     auth.logout()
   }
+})
   return (
     <div>
         <div className="header">
