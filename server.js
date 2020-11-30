@@ -21,7 +21,7 @@ app.use('/api/profile',require('./routes/api/profile'));
 app.use('/api/posts',require('./routes/api/posts'));
 app.use('/api/todo',require('./routes/api/todo'))
 
-//serve static assests in production
+//serve static assests in production (while deploying to heroku)
 if(process.env.NODE_ENV === 'production'){
 
     app.use(express.static('client/build'));
@@ -31,5 +31,5 @@ if(process.env.NODE_ENV === 'production'){
     })
 }
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT , () =>console.log('serer started on port ' + PORT));

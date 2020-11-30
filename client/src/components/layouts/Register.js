@@ -16,7 +16,7 @@ function Register() {
         try{
         event.preventDefault()
 
-        fetch("/api/users", {
+        fetch("http://localhost:5000/api/users", {
 
         method: "post",
 
