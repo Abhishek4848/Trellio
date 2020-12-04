@@ -37,12 +37,10 @@ async (req,res) =>
     {
         return res.status(400).json({ error : [{msg : 'user alreadqy exists'}]});
     } 
-
     //get users gravatar
 
     const avatar = gravatar.url(email , {
         s : '200',
-        r : 'pg',
         d : 'mm'
     });
     user = new User({

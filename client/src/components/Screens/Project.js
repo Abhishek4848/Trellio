@@ -38,7 +38,7 @@ function Post() {
   var search = responses
     .map((res) => res.techStack)
     .map((res) => res)
-    .filter((s) => s.includes(searchdata));
+    .filter((s) => s.toLowerCase().includes(searchdata.toLowerCase()));
   search = Array.from( new Set(search))
   // console.log(search)
   // const finaldata = responses.filter((res)=> res.techStack == (search.map((s)=>s)) )
@@ -118,7 +118,7 @@ function Post() {
         
       {
         // eslint-disable-next-line
-        searchdata &&responses.filter((res) => res.techStack == search.map((s) => s)).map((response) => {
+        searchdata && responses.filter((res) => res.techStack == search.map((s) => s)).map((response) => {
           const mailser = "mailto:" + response.user.email;
           return (
             <div className="cards5" key={response._id}>
