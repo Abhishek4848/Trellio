@@ -28,6 +28,9 @@ export const Homepage = () => {
         <div className ="title">
         </div>
         <div className="main" id="about_page">
+        <div className="colabimg">
+        <img src={collab1} />
+        </div>
             <span className="buttons">
             <Link to="/Register">
             <button className="button"><span>REGISTER</span></button></Link>
