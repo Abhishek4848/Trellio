@@ -69,7 +69,6 @@ body
     padding: 20px; /* Some padding */
     font-size: 20px;
     font-family: 'Handlee', cursive;
-
   }
   .button {
     display: inline-block;
@@ -147,4 +146,8 @@ body
     margin-top: 3%;
     margin-left: 50%;
   }
-  
+
+.colabimg img{
+  height:200px;
+  width: 250px;   
+}
