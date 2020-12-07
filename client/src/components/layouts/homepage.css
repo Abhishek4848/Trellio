@@ -4,10 +4,10 @@ body
 }
 
 
-.header {
+.headert {
     padding: 80px; /* some padding */
     text-align: center; /* center the text */
-    background: #1abc9c; /* green background */
+    background :#222; /* green background */
     color: white; /* white text color */
     width: auto;
    }
@@ -152,5 +152,6 @@ body
 .colabimg img{
   height: 500px;
   width: 100%; 
-  border-radius: 5px;  
+  border-radius: 5px;
+
 }

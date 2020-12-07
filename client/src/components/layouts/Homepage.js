@@ -20,7 +20,7 @@ export const Homepage = () => {
 })
   return (
     <div>
-        <div className="header">
+        <div className="headert">
             <h1>Trellio.</h1>
             <h3>MEET . CONNECT . COLLABORATE</h3>
         </div>
@@ -29,7 +29,7 @@ export const Homepage = () => {
         </div>
         <div className="main" id="about_page">
         <div className="colabimg">
-        <img src={collab1} />
+        <img src={collab1} /> 
         </div>
             <span className="buttons">
             <Link to="/Register">

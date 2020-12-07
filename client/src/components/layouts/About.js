@@ -21,12 +21,15 @@ function about() {
             <div className="column">
             <div className="card">
             <br></br>
-            <img src={abhiv} alt="Abhishek V" style= {{width:"60%", height:"300px", borderTop:"10%" ,  marginLeft:"21%"}}></img>
+            <img src={abhiv} alt="Abhishek V" style= {{width:"60%", height:"278px", borderTop:"10%" ,  marginLeft:"21%" , borderRadius:"50%"}}></img>
             <div className="containerabt">
             <br></br><br></br>
             <h2>Abhishek V</h2>
             <p className="title">PES University</p>
-            <p>Worked on Creating todo functionality, side navigation bar, learn tech page </p>
+            <br></br><br></br>
+            <h3>Frontend Designer & Developer</h3>
+            <br></br>
+            {/* <p>Worked on Creating todo functionality, side navigation bar, learn tech page </p> */}
             {/* <p><button className="buttonabt">Contact</button></p> */}
             <br></br>
             <p>
@@ -40,12 +43,15 @@ function about() {
         <div className="column">
             <div className="card">
             <br></br>
-            <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Profile-ICon.png" alt="Jane" style= {{width:"60%", height:"300px", borderTop:"10%" ,  marginLeft:"21%"}} ></img>
+            <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Profile-ICon.png" alt="Jane" style= {{width:"60%", height:"278px", borderTop:"10%" ,  marginLeft:"21%"}} ></img>
             <br></br><br></br>
             <div className="containerabt">
             <h2>Anush P</h2>
             <p className="title">PES University</p>
-            <p>Worked on Creating homepage layout, interface for login and register</p>
+            <br></br><br></br>
+            <h3>Frontend Designer</h3>
+            <br></br>
+            {/* <p>Worked on Creating homepage layout, interface for login and register</p> */}
             {/* <p><button className="buttonabt">Contact</button></p> */}
             <br></br>
             <p>
@@ -58,12 +64,15 @@ function about() {
   <div className="column">
             <div className="card">
             <br></br>
-            <img src={abhipfp} alt="Abhishek Mishra" style= {{width:"60%", height:"300px", borderTop:"10%" ,  marginLeft:"21%"}}></img>
+            <img src={abhipfp} alt="Abhishek Mishra" style= {{width:"60%", height:"278px", borderTop:"10%" ,  marginLeft:"21%" , borderRadius:"50%"}}></img>
             <br></br><br></br>
             <div className="containerabt">
             <h2>Abhishek Mishra</h2>
             <p className="title">PES University</p>
-            <p>Worked on Creating the interface for adding a new project, front-end back-end Integration, routing pages</p>
+            <br></br><br></br>
+            <h3>Backend developer</h3>
+            <br></br>
+            {/* <p>Worked on Creating the interface for adding a new project, front-end back-end Integration, routing pages</p> */}
             {/* <p><button className="buttonabt">Contact</button></p> */}
             <br></br>
             <p>

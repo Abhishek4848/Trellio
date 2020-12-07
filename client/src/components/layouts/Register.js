@@ -59,9 +59,9 @@ function Register() {
           Already have an account? <Link to="/Login">Sign in</Link>
         </p>
       </form>
-      <footer>
+      <header>
                     <Link to="/"><img src={logo} height="70px" width="70px" alt="icon"></img></Link>
-      </footer>
+      </header>
     </div>
   );
 }
