@@ -11,4 +11,4 @@ Then go into the backend folder and start the backend server using the command :
 `npm run server`
 
 ## Trellio on Heroku
-We have deployed a test version of this app on : https://trellio.herokuapp.com/
+The Current test version of Trellio is deployed on Heroku and is live: https://trellio.herokuapp.com/
