@@ -2,7 +2,8 @@ import React, {useContext,useState} from 'react'
 import "./login.css";
 import {Link} from 'react-router-dom';
 import {authContext} from '../../context/auth-context'
-import logo from './images/icon.svg'; 
+import logo from './images/icon.svg';
+ 
 function Login() {
     const auth = useContext(authContext)
     const [email,setEmail] = useState('')
@@ -52,9 +53,9 @@ function Login() {
                <input type="submit" name="" value="Login"></input>
                 <p>Don't have an account? <Link to="/Register">Register</Link></p>
             </form>
-            <footer>
+            <header>
                     <Link to="/"><img src={logo} height="70px" width="70px" alt="icon"></img></Link>
-            </footer>
+            </header>
         </div>
             
     )

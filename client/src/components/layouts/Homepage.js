@@ -26,16 +26,8 @@ export const Homepage = () => {
         </div>
         <Navbar />
         <div className ="title">
-        <h1 className="heart">ABOUT TRELLIO</h1>
         </div>
         <div className="main" id="about_page">
-            <div className="about">
-                Trellio is a platform where fellow developers can meet , connect and collaborate. Developers can post their project ideas
-                and other fellow developers can view the project ideas and connect to work on it.
-            </div>
-            <div className="colabimg">
-            <img src={collab1} />
-            </div>
             <span className="buttons">
             <Link to="/Register">
             <button className="button"><span>REGISTER</span></button></Link>
