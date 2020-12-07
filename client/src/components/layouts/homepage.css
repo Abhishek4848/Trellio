@@ -151,5 +151,6 @@ body
 
 .colabimg img{
   height: 500px;
-  width: 100%;   
+  width: 100%; 
+  border-radius: 5px;  
 }
