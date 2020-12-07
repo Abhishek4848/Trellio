@@ -20,7 +20,7 @@ export const Homepage = () => {
 })
   return (
     <div>
-        <div className="headert">
+        <div className="header">
             <h1>Trellio.</h1>
             <h3>MEET . CONNECT . COLLABORATE</h3>
         </div>
